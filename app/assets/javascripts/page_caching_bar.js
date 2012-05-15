@@ -1,6 +1,6 @@
-var App = App || {};
+window.App = window.App || {};
 
-App.updateCartAmount = function(value) {
+window.App.updateCartAmount = function(value) {
 	if (value) {
 		$('#nav-bar li.cart-indicator').html(value);
 	}
@@ -12,7 +12,7 @@ $(function(){
 		url: '/page_caching_info',
 		dataType: 'json',
 		success: function(data){
-			App.updateCartAmount(data.cart_amount);
+			window.App.updateCartAmount(data.cart_amount);
 		}
 	});
 
