@@ -1,4 +1,4 @@
-window.App = App || {};
+window.App = window.App || {};
 
 window.App.fromCookie =  {
 
