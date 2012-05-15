@@ -2,7 +2,7 @@ namespace :spree_page_cache do
 
   desc "Copies all assets (NOTE: This will be obsolete with Rails 3.1)"
   task :install do
-    Rake::Task['spree_page_caching:install:assets'].invoke
+    Rake::Task['spree_page_cache:install:assets'].invoke
   end
 
   namespace :install do
