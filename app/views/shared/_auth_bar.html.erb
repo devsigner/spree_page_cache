@@ -10,4 +10,6 @@
   <a href='/login'><%=t('log_in')%></a>
 </li>
 
-<%= javascript_include_tag 'from_cookie', 'jquery.cookie', 'flash', 'page_caching_bar' %>
+<%= content_for :scripts do %>
+  <%= javascript_include_tag 'from_cookie', 'jquery.cookie', 'flash', 'page_caching_bar' %>
+<% end -%>
