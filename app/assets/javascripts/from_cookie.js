@@ -6,7 +6,7 @@ window.App.fromCookie =  {
     return (input - 0) == input && input.length > 0;
   },
 
-  udpateDom: function(){
+  updateDom: function() {
     var currentUserId = $.cookie('current_user_id'),
       cartAmount = $.cookie('cart_amount');
 
