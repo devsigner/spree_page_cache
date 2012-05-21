@@ -26,7 +26,5 @@ window.App.fromCookie =  {
 
 
 $(function(){
-
   window.App.fromCookie.updateDom();
-
 });
