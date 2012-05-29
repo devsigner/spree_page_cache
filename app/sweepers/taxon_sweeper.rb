@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class TaxonSweeper < ActionController::Caching::Sweeper
   observe Taxon
 

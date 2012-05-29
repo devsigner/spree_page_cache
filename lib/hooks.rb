@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Deface::Override.new(:virtual_path => "shared/_nav_bar",
                      :name => "auth_shared_login_bar",
                      :replace => "[data-hook='shared_login_bar'], #shared_login_bar[data-hook]",
